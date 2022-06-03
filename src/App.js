@@ -22,7 +22,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Navbar />
           <LoadingBar
             height={3}
